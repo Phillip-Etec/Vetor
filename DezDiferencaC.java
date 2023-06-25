@@ -1,6 +1,7 @@
 package complementarVetor;
 import java.util.Random;
 import java.util.ArrayList;
+
 public class DezDiferencaC {
 	public static void main(String[] args) {
 		int A[]= new int[] {0, 1, 2 ,3 ,4 ,5 ,6 ,7 ,8 ,9};
@@ -24,6 +25,7 @@ public class DezDiferencaC {
 		//for (i=0;i<10;i++) System.out.println(C[0][i]);
 		//for (i=0;i<10;i++) System.out.println(C[1][i]);
 		mostrarVetorUnidimensionalInt(C[1]);
+		mostrarVetorUnidimensionalInt(C[0]);
 	}
 	public static void mostrarVetorUnidimensionalInt(int n[]) {
 		String espaco= "	";

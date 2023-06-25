@@ -43,17 +43,17 @@ public class UmImparesEpares {
 		System.out.println(espaco+pipe);
 		for (i=(n[0].length-1);i>=0;i--) {
 			System.out.print("      "+i+" "+hifen);
-			for(j=0;j<(n.length);j++) {
+			for(j=0;j<(n.length);j++)
 				System.out.print(n[j][i]+espaco);
-			}
+
 			System.out.println("");
 			if (i!=0) System.out.println(espaco+pipe);
 		}
 		System.out.print(espaco+pipe);
 		for (j=0;j<(n.length-1);j++) {
-			for (i=0;i<7;i++) {
+			for (i=0;i<7;i++)
 				System.out.print(underline);
-			}
+
 			System.out.print("|");
 		}
 		System.out.print("______-");System.out.println("> X");
